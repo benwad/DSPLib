@@ -61,7 +61,7 @@ int buffers_are_equal(float* buffer1, float* buffer2, int numFrames)
 
 int main( int argc, char* argv[] )
 {
-	const char* sFilename = "/Users/benwadsworth/Documents/sunvox/instruments/drums/crash.wav";
+	const char* sFilename = "crash.wav";
 	
 	SF_INFO sf_info;
 	SNDFILE* objSndFile = sf_open(sFilename, SFM_READ, &sf_info);
